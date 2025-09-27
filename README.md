@@ -95,9 +95,11 @@ UberClone/
 
 ## Screenshots
 
-- [User Login Page](https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20123746.png)
+-[Landing Page](https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20123746.png)
+  
+-[user Login Page](https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20123811.png)
 
-- [Captain Login Page](https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20124124.png)
+-[Captain Login Page](https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20124124.png)
 
 -[Location Search Suggestions](https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20132540.png)
 
@@ -115,7 +117,7 @@ UberClone/
 
 -[Live Ride location after ride started](https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20133103.png)
 
-(https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20133112.png)
+-[Location Tracing](https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20133112.png)
 
 -[Ride Details after completion](https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20133123.png)
 
