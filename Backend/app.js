@@ -26,8 +26,8 @@ app.use(cookieParser());
 // ));
 
 const allowedOrigins = [
-  "https://uber-clone-kappa-five.vercel.app",
-  "https://k70mwpxs-5173.inc1.devtunnels.ms",
+  "https://uber-clone-kappa-five.vercel.app"
+  // "https://k70mwpxs-5173.inc1.devtunnels.ms",
 ];
 
 app.use(
