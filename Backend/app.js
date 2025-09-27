@@ -26,7 +26,7 @@ app.use(cookieParser());
 // ));
 
 const allowedOrigins = [
-  "http://localhost:5173",
+  "https://uber-clone-kappa-five.vercel.app",
   "https://k70mwpxs-5173.inc1.devtunnels.ms",
 ];
 
@@ -34,7 +34,7 @@ app.use(
   cors({
     origin: (origin, callback) => {
       if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, origin);
+        callback(null, true);
       } else {
         callback(new Error("Not allowed by CORS"));
       }
