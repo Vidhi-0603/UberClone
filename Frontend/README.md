@@ -89,14 +89,15 @@ This project is a frontend for an Uber-like ride-hailing app, supporting registr
 
 | Route                | Component                | Purpose                                                                 |
 |----------------------|-------------------------|-------------------------------------------------------------------------|
-| `/`                  | `Home`                  | Rider home page, search and book rides                                  |
-| `/register`          | `UserRegister`          | Rider registration form                                                 |
-| `/login`             | `UserLogin`             | Rider login form                                                        |
-| `/captain/register`  | `CaptainRegister`       | Captain registration form                                               |
-| `/captain/login`     | `CaptainLogin`          | Captain login form                                                      |
-| `/captain/home`      | `CaptainHome`           | Captain dashboard/home page                                             |
-| `/ongoing-ride`      | `OngoingRide`           | Shows ongoing ride details and map with route between captain and rider |
-| `/ride-details`      | `RideDetails`           | Displays details of a completed or ongoing ride                         |
+| `/home`                  | ` Rider Home`                  | Rider home page, search and book rides                                  |
+| `/user-register`          | `UserRegister`          | Rider registration form                                                 |
+| `/user-login`             | `UserLogin`             | Rider login form                                                        |
+| `/captain-register`  | `CaptainRegister`       | Captain registration form                                               |
+| `/captain-login`     | `CaptainLogin`          | Captain login form                                                      |
+| `/captainhome`      | `CaptainHome`           | Captain dashboard/home page                                             |
+| `/ongoing-ride`      | `OngoingRide`           | On Rider side, shows ongoing ride details and map with route between captain and rider |
+| `/captain-riding`      | `CaptainRiding`           | On Captain side, shows ongoing ride details and map with route between captain and rider |
+| `/ride-details`      | `RideDetails`           | Displays details of a completed ride                         |
 
 ---
 
