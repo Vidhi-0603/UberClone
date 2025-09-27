@@ -88,9 +88,7 @@ UberClone/
 │   ├── package.json
 │   └── README.md
 │
-├── .env
 ├── README.md
-└── LICENSE
 ```
 
 ---
