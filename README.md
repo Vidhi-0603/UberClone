@@ -1,7 +1,10 @@
 # UberClone
+---
 
-### view live at
+### View live at
 -[link](https://uber-clone-kappa-five.vercel.app/)
+
+---
 
 ## Overview
 
