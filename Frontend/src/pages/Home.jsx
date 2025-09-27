@@ -78,7 +78,7 @@ const Home = () => {
       if (window.innerWidth < 1024) {
         if (panelOpen) {
           gsap.to(panelRef.current, {
-            height: "75%",
+            height: "70%",
             padding: 24,
           });
           gsap.to(panelCloseRef.current, {
@@ -105,9 +105,17 @@ const Home = () => {
           gsap.to(vehiclePanelRef.current, {
             transform: "translateY(0)",
           });
+          gsap.to(vehiclePanelCloseRef.current, {
+            opacity: 1,
+            duration: 0.3,
+          });
         } else {
           gsap.to(vehiclePanelRef.current, {
             transform: "translateY(100%)",
+          });
+          gsap.to(vehiclePanelCloseRef.current, {
+            opacity: 0,
+            duration: 0.3,
           });
         }
       }
@@ -121,7 +129,7 @@ const Home = () => {
           });
         } else if (vehiclePanelCloseRef.current) {
           gsap.to(vehiclePanelCloseRef.current, {
-            opacity: 0,
+            opacity: 1,
             duration: 0.3,
           });
         }
@@ -137,16 +145,24 @@ const Home = () => {
           gsap.to(SelectedRidePanelRef.current, {
             transform: "translateY(0)",
           });
+          gsap.to(SelectedRidePanelCloseRef.current, {
+            opacity: 1,
+            duration: 0.3,
+          });
         } else {
           gsap.to(SelectedRidePanelRef.current, {
             transform: "translateY(100%)",
+          });
+          gsap.to(SelectedRidePanelCloseRef.current, {
+            opacity: 1,
+            duration: 0.3,
           });
         }
       }
 
       // Desktop close button animation for selected ride panel
       if (window.innerWidth >= 1024) {
-        if (selectedRidePanelOpen && SelectedRidePanelCloseRef.current) {
+        if (selectedRidePanelOpen) {
           gsap.to(SelectedRidePanelCloseRef.current, {
             opacity: 1,
             duration: 0.3,
@@ -343,7 +359,7 @@ const Home = () => {
 
         {/* Search Panel */}
         <div className="flex flex-col justify-end h-screen absolute top-0 w-full pointer-events-none">
-          <div className="h-[25%] p-6 bg-white relative pointer-events-auto">
+          <div className="h-[30%] p-6 bg-white relative pointer-events-auto">
             <h5
               ref={panelCloseRef}
               onClick={() => {

@@ -134,7 +134,7 @@ const UserRegister = () => {
 
       {/* Tablet and Desktop Layout (md and up) */}
       <div className="hidden md:flex min-h-screen bg-gray-50">
-        <div className="flex flex-col justify-center items-center w-full px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col justify-center items-center w-full py-8 px-4 sm:px-6 lg:px-8">
           <div className="w-full max-w-md space-y-8">
             {/* Logo */}
             <div className="text-center">

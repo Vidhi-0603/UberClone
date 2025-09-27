@@ -208,7 +208,7 @@ const CaptainHome = () => {
 
         {/* Left Side - Map */}
         <div className="flex-1 relative">
-          <div className="h-full w-full border-5 border-green-500">
+          <div className="h-full w-full">
             {!isRiding && <CaptainMap captain={captain} />}
           </div>
         </div>
