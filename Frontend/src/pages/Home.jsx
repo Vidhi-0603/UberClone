@@ -499,10 +499,10 @@ const Home = () => {
         {/* Right Side - Panels */}
         <div className="w-full lg:w-96 xl:w-[450px] 2xl:w-[500px] bg-white shadow-lg overflow-hidden flex flex-col relative">
           {/* Default Search Panel */}
-          <div className="absolute top-0 left-0 right-0 border-b flex p-4 mt-3 items-center justify-between">
+          <div className="absolute top-0 left-0 right-0 border-b flex p-4 items-center justify-between">
             <LogoutUser panelOpen={panelOpen} />
           </div>
-          <div className="mt-5 p-6 border-b flex-shrink-0">
+          <div className="mt-8 p-6 border-b flex-shrink-0">
             <h4 className="text-2xl font-semibold mb-4">Find a Trip</h4>
             <form
               className="space-y-3"
