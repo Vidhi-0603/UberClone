@@ -20,10 +20,14 @@ const LocationSearchPanel = (props) => {
             onClick={() => handleSuggestionClick(elem)}
             className="flex gap-4 border-2 p-2 active:border-black border-gray-50 rounded-xl items-center justify-between"
           >
-            <h2 className="bg-[#eee] h-8 flex items-center justify-center w-14 rounded-full">
-              <i className="ri-map-pin-fill"></i>
-            </h2>
-            <h4 className="font-medium">{elem}</h4>
+            <div className="w-[20%]">
+              <h2 className="bg-[#eee] h-8 flex items-center justify-center w-14 rounded-full">
+                <i className="ri-map-pin-fill"></i>
+              </h2>
+            </div>
+            <div>
+              <h4 className="font-medium w-[80%]">{elem}</h4>
+            </div>
           </div>
         );
       })}
