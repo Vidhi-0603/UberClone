@@ -497,7 +497,7 @@ const Home = () => {
         </div>
 
         {/* Right Side - Panels */}
-        <div className="w-full lg:w-96 xl:w-[450px] border-2 border-red-400 2xl:w-[500px] bg-white shadow-lg overflow-hidden flex flex-col">
+        <div className="w-full lg:w-96 xl:w-[450px] border-2 border-red-400 2xl:w-[500px] bg-white shadow-lg overflow-hidden flex flex-col relative">
           {/* Default Search Panel */}
           <div className="absolute top-0 left-0 right-0 flex p-4 items-center justify-between">
             <LogoutUser panelOpen={panelOpen} />
