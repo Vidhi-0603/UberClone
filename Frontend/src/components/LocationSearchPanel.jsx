@@ -18,7 +18,7 @@ const LocationSearchPanel = (props) => {
           <div
             key={idx}
             onClick={() => handleSuggestionClick(elem)}
-            className="flex gap-4 border-2 p-2 active:border-black border-gray-50 rounded-xl items-center justify-between"
+            className="flex gap-4 border-2 p-2 active:border-black border-gray-50 rounded-xl items-center justify-start"
           >
             <div className="w-[20%]">
               <h2 className="bg-[#eee] h-8 flex items-center justify-center w-14 rounded-full">
