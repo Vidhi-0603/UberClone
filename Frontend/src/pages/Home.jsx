@@ -78,7 +78,7 @@ const Home = () => {
       if (window.innerWidth < 1024) {
         if (panelOpen) {
           gsap.to(panelRef.current, {
-            height: "70%",
+            height: "65%",
             padding: 24,
           });
           gsap.to(panelCloseRef.current, {
@@ -359,7 +359,7 @@ const Home = () => {
 
         {/* Search Panel */}
         <div className="flex flex-col justify-end h-screen absolute top-0 w-full pointer-events-none">
-          <div className="h-[30%] p-6 bg-white relative pointer-events-auto">
+          <div className="h-[35%] p-4 bg-white relative pointer-events-auto">
             <h5
               ref={panelCloseRef}
               onClick={() => {
