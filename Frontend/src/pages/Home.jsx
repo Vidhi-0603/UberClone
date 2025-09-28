@@ -474,11 +474,6 @@ const Home = () => {
       {/* Desktop Layout (>= 1024px) */}
       <div className="hidden lg:flex h-screen relative overflow-hidden">
         {/* Header for Desktop - Full Width */}
-        <div className="absolute top-0 left-0 right-0 z-20 flex w-full p-4 items-center justify-between pointer-events-none">
-          <div className="flex w-full items-center justify-between pointer-events-auto">
-            <LogoutUser panelOpen={panelOpen} />
-          </div>
-        </div>
 
         {/* Left Side - Map */}
         <div className="flex-1 relative">
@@ -504,7 +499,10 @@ const Home = () => {
         {/* Right Side - Panels */}
         <div className="w-full lg:w-96 xl:w-[450px] 2xl:w-[500px] bg-white shadow-lg overflow-hidden flex flex-col">
           {/* Default Search Panel */}
-          <div className="p-6 border-b flex-shrink-0">
+          <div className="absolute top-0 left-0 right-0 flex w-full p-4 items-center justify-between">
+            <LogoutUser panelOpen={panelOpen} />
+          </div>
+          <div className="mt-5 p-6 border-b flex-shrink-0">
             <h4 className="text-2xl font-semibold mb-4">Find a Trip</h4>
             <form
               className="space-y-3"
