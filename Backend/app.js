@@ -27,7 +27,7 @@ app.use(cookieParser());
 
 const allowedOrigins = [
   "https://uber-clone-kappa-five.vercel.app"
-  // "https://k70mwpxs-5173.inc1.devtunnels.ms",
+  // "https://k70mwpxs-5173.inc1.devtunnels.ms"
 ];
 
 app.use(
@@ -45,6 +45,15 @@ app.use(
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+app.use((req, res, next) => {
+  const start = Date.now();
+  res.on("finish", () => {
+    const duration = Date.now() - start;
+    console.log(`${req.method} ${req.originalUrl} took ${duration} ms`);
+  });
+  next();
+});
 
 app.use('/user', authRoutes);
 app.use('/captain', captainRoutes);
