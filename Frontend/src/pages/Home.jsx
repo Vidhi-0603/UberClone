@@ -310,7 +310,7 @@ const Home = () => {
     }
     if (panelOpen) {
       return (
-        <div className="h-full overflow-auto">
+        <div className="h-full px-2 overflow-auto">
           <LocationSearchPanel
             suggestions={
               activeField === "pickup"
