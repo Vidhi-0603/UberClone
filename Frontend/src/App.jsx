@@ -13,12 +13,14 @@ import OngoingRide from './pages/OngoingRide.jsx';
 import CaptainRiding from './pages/CaptainRiding.jsx';
 import RideDetails from './pages/RideDetails.jsx';
 import { LoadScript } from "@react-google-maps/api";
+import Loader from './components/Loader.jsx';
 
 
 const App = () => {
   return (
     <div>
-      <LoadScript googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
+      <LoadScript googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}
+      loadingElement={<Loader />} >
         <Routes>
           <Route path="/" element={<Start />} />
           <Route path="/user-login" element={<UserLogin />} />
