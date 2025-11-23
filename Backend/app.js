@@ -17,17 +17,11 @@ dotenv.config();
 connectToDB();
 
 app.use(cookieParser());
-// app.use(cors(
-//     // {
-//     //     // origin: 'http://localhost:5173',
-//     //     origin:'*',
-//     //     credentials: true,
-//     // }
-// ));
 
 const allowedOrigins = [
-  "https://uber-clone-kappa-five.vercel.app"
-  // "https://k70mwpxs-5173.inc1.devtunnels.ms"
+  "https://uber-clone-kappa-five.vercel.app",
+  // "http://localhost:5173/"
+  // "https://w7fzrd0s-5173.inc1.devtunnels.ms/",
 ];
 
 app.use(
