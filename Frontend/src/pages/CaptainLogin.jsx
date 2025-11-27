@@ -29,16 +29,7 @@ const CaptainLogin = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-6 px-4 sm:px-6 lg:px-8">
       <div className="w-full max-w-md mx-auto space-y-8">
-        {/* Logo */}
-        <div className="text-center">
-          <Link to="/">
-            <img
-              className="mx-auto w-16 sm:w-20 bg-transparent"
-              src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
-              alt="Uber Logo"
-            />
-          </Link>
-        </div>
+        
 
         {/* Login Form Container */}
         <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl p-6 sm:p-8 space-y-6">

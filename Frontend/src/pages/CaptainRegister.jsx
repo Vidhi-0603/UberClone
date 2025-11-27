@@ -51,16 +51,7 @@ const CaptainRegister = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-4 px-4 sm:px-6 lg:px-8">
       <div className="w-full max-w-lg mx-auto">
-        {/* Logo */}
-        <div className="text-center mb-6">
-          <Link to="/">
-            <img
-              className="mx-auto w-16 sm:w-20 bg-transparent"
-              src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
-              alt="Uber Logo"
-            />
-          </Link>
-        </div>
+        
 
         {/* Registration Form Container */}
         <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl p-6 sm:p-8 mb-6">

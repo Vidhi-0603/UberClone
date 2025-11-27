@@ -32,22 +32,23 @@ const LogoutCaptain = (props) => {
   );
   return (
     <>
-      <img
-        className="w-16"
-        src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
-        alt=""
-      />
+      <div className="flex justify-between items-center w-full text-lg">
+
+      <div className="text-red-600 font-bold text-2xl px-2 py-1 rounded z-50">
+        RideNow
+      </div>
 
       <button
         ref={logoutRef}
         type="button"
-        className="bg-red-700 text-white px-2 py-1 rounded z-50"
+        className="bg-red-700 text-white px-4 py-1 rounded z-50"
         onClick={() => {
           handleLogout();
         }}
       >
         Logout
-      </button>
+        </button>
+        </div>
     </>
   );
 };

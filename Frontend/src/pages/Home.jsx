@@ -502,7 +502,7 @@ const Home = () => {
           <div className="absolute top-0 left-0 right-0 flex p-4 items-center justify-between">
             <LogoutUser panelOpen={panelOpen} />
           </div>
-          <div className="mt-8 p-6 border-b flex-shrink-0">
+          <div className="mt-13 p-6 border-b flex-shrink-0">
             <h4 className="text-2xl font-semibold mb-4">Find a Trip</h4>
             <form
               className="space-y-3"

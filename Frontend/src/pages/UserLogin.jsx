@@ -33,13 +33,7 @@ const UserLogin = () => {
       {/* Mobile Layout (default) */}
       <div className="md:hidden p-8 flex border flex-col justify-between h-screen">
         <div>
-          <Link to="/">
-            <img
-              className="w-16 bg-transparent mb-5"
-              src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
-              alt="Uber Logo"
-            />
-          </Link>
+          
 
           <div className="text-center text-3xl text-red-900 font-bold mb-5">
             User Login
@@ -105,16 +99,7 @@ const UserLogin = () => {
       <div className="hidden md:flex min-h-screen bg-gray-50">
         <div className="flex flex-col justify-center items-center w-full px-4 sm:px-6 lg:px-8">
           <div className="w-full max-w-md space-y-8">
-            {/* Logo */}
-            <div className="text-center">
-              <Link to="/">
-                <img
-                  className="mx-auto w-20 bg-transparent mb-6"
-                  src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
-                  alt="Uber Logo"
-                />
-              </Link>
-            </div>
+            
 
             {/* Login Form Container */}
             <div className="bg-white rounded-2xl shadow-xl p-8 space-y-6">
